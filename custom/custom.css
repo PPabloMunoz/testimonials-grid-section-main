@@ -12099,3 +12099,13 @@ body {
   opacity: 0.7;
   margin: 0;
 }
+
+.card-body p:first-child {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-body p:last-child {
+  font-size: 14px;
+  opacity: 0.6;
+}
