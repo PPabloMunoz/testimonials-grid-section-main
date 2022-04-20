@@ -21,6 +21,7 @@ README.md
 style-guide.md
 
 textos.txt
+custom/custom.scss
 
 prepros.config
 node_modules
