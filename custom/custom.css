@@ -12062,14 +12062,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  font-family: "Barlow Semi Condensed", sans-serif;
-}
-
-.container {
-  max-width: 300px;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -12077,6 +12069,22 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  max-width: 350px;
+  margin-top: 10px;
 }
 
 .cajas-header-img {
@@ -12100,12 +12108,41 @@ body {
   margin: 0;
 }
 
-.card-body p:first-child {
+.cards-texts p:first-child {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 24px;
 }
 
-.card-body p:last-child {
+.cards-texts p:last-child {
   font-size: 14px;
   opacity: 0.6;
+}
+
+.card {
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+
+.caja1 {
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 85% top;
+}
+
+.caja2 {
+  background-color: #48556a;
+}
+
+.caja4 {
+  background-color: #19212e;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1100px;
+  }
 }
