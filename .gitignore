@@ -25,3 +25,5 @@ textos.txt
 prepros.config
 node_modules
 design
+package-lock.json
+package.json
